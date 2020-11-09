@@ -1,7 +1,7 @@
 const path = require("path");
 const express = require("express");
 const xss = require("xss");
-const CategoriesService = require("./categories-service");
+const CategoriesService = require("./categories-server");
 
 const categoriesRouter = express.Router();
 const jsonParser = express.json();

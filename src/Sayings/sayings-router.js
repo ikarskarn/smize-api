@@ -1,7 +1,7 @@
 const path = require("path");
 const express = require("express");
 const xss = require("xss");
-const SayingsService = require("./sayings-service");
+const SayingsService = require("./sayings-server");
 
 const sayingsRouter = express.Router();
 const jsonParser = express.json();
