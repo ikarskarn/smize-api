@@ -19,20 +19,19 @@ app.use(cors());
 app.use("/api/categories", CategoriesRouter);
 app.use("/api/sayings", SayingsRouter);
 
+app.get("/", (req, res) => {
+    res.send("Hello, world!");
+});
+
 app.use(function errorHandler(error, req, res, next) {
     let response;
     if (NODE_ENV === "production") {
-        response = { error: { message: "server error" } };
+        response = { error: { message: "api server error" } };
     } else {
-        console.error(error);
         response = { message: error.message, error };
     }
     console.error(error);
     res.status(500).json(response);
-});
-
-app.get("/", (req, res) => {
-    res.send("Hello, world!");
 });
 
 module.exports = app;

@@ -69,7 +69,7 @@ sayingsRouter
     })
     .delete((req, res, next) => {
         const knexInstance = req.app.get("db");
-        SayingService.deleteSaying(knexInstance, req.params.saying_id)
+        SayingsService.deleteSaying(knexInstance, req.params.saying_id)
             .then(res.status(204).end())
             .catch(next);
     })
