@@ -31,26 +31,26 @@ Below is a list of the current pages and a brief description of their purpose an
 
 The landing page is to simply provide users with a brief description about the app and what steps can be taken next.
 
-<img src="src/images/landingPage_mobile_01.jpg" alt="Mobile Home Page" width="250"/> &nbsp; &nbsp; &nbsp; <img src="src/images/landingPage_mobile_02.jpg" alt="Mobile Home Page" width="250"/>
+<img src="src/Images/landingPage_mobile_01.JPG" alt="Mobile Home Page" width="250"/> &nbsp; &nbsp; &nbsp; <img src="src/Images/landingPage_mobile_02.JPG" alt="Mobile Home Page" width="250"/>
 
-<img src="src/images/landingPage_tablet.jpg" alt="Tablet Home Page" width="525"/>
+<img src="src/Images/landingPage_tablet.JPG" alt="Tablet Home Page" width="525"/>
 
 ## Smize Page
 
 The Smize page is in two parts. Part 1 is a category selection. Part 2 displays sayings from the chosen category.
 
-<img src="src/images/smizePage_mobile_01.jpg" alt="Mobile Smize Category Selection" width="250"/> &nbsp; &nbsp; &nbsp; <img src="src/images/smizePage_mobile_02.jpg" alt="Mobile Smize Slideshow Example" width="250"/>
+<img src="src/Images/smizePage_mobile_01.JPG" alt="Mobile Smize Category Selection" width="250"/> &nbsp; &nbsp; &nbsp; <img src="src/Images/smizePage_mobile_02.JPG" alt="Mobile Smize Slideshow Example" width="250"/>
 
-<img src="src/images/smizePage_tablet.jpg" alt="Tablet Smize Catalog Choice" width="525"/>
+<img src="src/Images/smizePage_tablet.JPG" alt="Tablet Smize Catalog Choice" width="525"/>
 
 ## Smize Share Page
 
 The Smize Share page provides a list of all sayings divided into categories. A user can simply add a new saying by click **Add +** next to the category they wish to create a new saying for. They can also delete a Smize by simply clicking the delete button next to the saying.
 \*This would normally be filtered by user as well but for demonstration purposes, it has not.
 
-<img src="src/images/smizeSharePage_mobile_01.jpg" alt="Mobile Smize Share Page" width="250"/> &nbsp; &nbsp; &nbsp; <img src="src/images/smizeSharePage_mobile_02.jpg" alt="Mobile Smize Share Add Example" width="250"/>
+<img src="src/Images/smizeSharePage_mobile_01.JPG" alt="Mobile Smize Share Page" width="250"/> &nbsp; &nbsp; &nbsp; <img src="src/Images/smizeSharePage_mobile_02.JPG" alt="Mobile Smize Share Add Example" width="250"/>
 
-<img src="src/images/smizeSharePage_desktop.jpg" alt="Desktop Smize Share Page" width="525"/>
+<img src="src/Images/smizeSharePage_desktop.JPG" alt="Desktop Smize Share Page" width="525"/>
 
 ## API ENDPOINTS
 
