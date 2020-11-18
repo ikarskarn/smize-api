@@ -3,7 +3,11 @@ const SayingsService = {
         return knex.select("*").from("smize_sayings");
     },
     insertSaying(knex, newSaying) {
-        return knex.insert(newSaying).into("smize_sayings").returning("*");
+        return knex
+            .insert(newSaying)
+            .into("smize_sayings")
+            .returning("*")
+            .then((rows) => rows[0]);
     },
     getById(knex, id) {
         return knex.from("smize_sayings").select("*").where("id", id).first();
